@@ -1,0 +1,204 @@
+{
+  "seed_sources": [
+    {
+      "url": "https://arxiv.org/list/cs.LG/recent",
+      "source_type": "arxiv",
+      "crawl_frequency": "daily",
+      "priority": 8,
+      "description": "Machine Learning papers from arXiv - filtered for interatomic potentials",
+      "enabled": true
+    },
+    {
+      "url": "https://arxiv.org/list/physics.comp-ph/recent",
+      "source_type": "arxiv",
+      "crawl_frequency": "daily",
+      "priority": 9,
+      "description": "Computational Physics papers - many MLIP papers here",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/ACEsuit/mace",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 10,
+      "description": "MACE (Multi-ACE) framework - one of the most popular MLIP frameworks",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/mir-group/nequip",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 10,
+      "description": "NequIP - Neural Equivariant Interatomic Potentials",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/atomistic-machine-learning/schnetpack",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 9,
+      "description": "SchNetPack - Deep Learning for Atomistic Systems",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/mir-group/allegro",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 9,
+      "description": "Allegro - Arbitrarily Localized Equivariant Representation",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/materialsvirtuallab/m3gnet",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 8,
+      "description": "M3GNet - Materials 3D Graph Networks",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/materialsvirtuallab/chgnet",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 8,
+      "description": "CHGNet - Crystal Hamiltonian Graph Neural Network",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/openmm/openmm-torch",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 7,
+      "description": "OpenMM with PyTorch integration for MLIPs",
+      "enabled": true
+    },
+    {
+      "url": "https://materialsproject.org/docs",
+      "source_type": "tutorial",
+      "crawl_frequency": "monthly",
+      "priority": 7,
+      "description": "Materials Project documentation and tutorials",
+      "enabled": true
+    },
+    {
+      "url": "https://nomad-coe.eu/",
+      "source_type": "tutorial",
+      "crawl_frequency": "monthly",
+      "priority": 6,
+      "description": "NOMAD Centre of Excellence - computational materials science",
+      "enabled": true
+    },
+    {
+      "url": "https://www.youtube.com/@MaterialsResearchSociety",
+      "source_type": "youtube",
+      "crawl_frequency": "weekly",
+      "priority": 6,
+      "description": "Materials Research Society YouTube channel",
+      "enabled": true
+    },
+    {
+      "url": "https://www.youtube.com/@AmericanPhysicalSociety",
+      "source_type": "youtube",
+      "crawl_frequency": "weekly",
+      "priority": 6,
+      "description": "American Physical Society YouTube channel",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/interatomic-potential",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 7,
+      "description": "GitHub repositories tagged with 'interatomic-potential'",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/machine-learning-potential",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 7,
+      "description": "GitHub repositories tagged with 'machine-learning-potential'",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/neural-network-potential",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 7,
+      "description": "GitHub repositories tagged with 'neural-network-potential'",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/force-field",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 6,
+      "description": "GitHub repositories tagged with 'force-field'",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/atomistic-simulation",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 6,
+      "description": "GitHub repositories tagged with 'atomistic-simulation'",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/molecular-dynamics",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 6,
+      "description": "GitHub repositories tagged with 'molecular-dynamics'",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/dft",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 5,
+      "description": "GitHub repositories tagged with 'dft' (Density Functional Theory)",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/ase",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 7,
+      "description": "GitHub repositories using ASE (Atomic Simulation Environment)",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/lammps",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 6,
+      "description": "GitHub repositories using LAMMPS molecular dynamics",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/vasp",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 5,
+      "description": "GitHub repositories using VASP (Vienna Ab initio Simulation Package)",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/quantum-espresso",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 5,
+      "description": "GitHub repositories using Quantum ESPRESSO",
+      "enabled": true
+    },
+    {
+      "url": "https://github.com/topics/ab-initio",
+      "source_type": "github",
+      "crawl_frequency": "weekly",
+      "priority": 5,
+      "description": "GitHub repositories tagged with 'ab-initio'",
+      "enabled": true
+    }
+  ]
+}
