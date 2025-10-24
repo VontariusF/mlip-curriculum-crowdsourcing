@@ -43,6 +43,15 @@ The system features a **Rich-based dashboard** showing:
 - **Error Tracking**: Failed scrapes and classification errors
 - **Performance Metrics**: Processing speed, API usage, database stats
 
+## 🔒 Security Notice
+
+**IMPORTANT**: This repository does not contain any real API keys or secrets. All sensitive information has been removed from the Git history.
+
+- The `.env` file is gitignored and never committed
+- The `.env.example` file contains only placeholder values
+- You must create your own `.env` file with your actual API credentials
+- Never commit files containing real API keys or secrets
+
 ## 🚀 Quick Start
 
 ### Prerequisites
