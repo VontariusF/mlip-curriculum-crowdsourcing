@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_DB: mlip_curriculum
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: change_me_local_password
     ports:
       - "5432:5432"
     volumes:

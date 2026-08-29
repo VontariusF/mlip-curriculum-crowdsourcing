@@ -94,7 +94,7 @@ class DatabaseManager:
             port = os.getenv('POSTGRES_PORT', '5432')
             db = os.getenv('POSTGRES_DB', 'mlip_curriculum')
             user = os.getenv('POSTGRES_USER', 'postgres')
-            password = os.getenv('POSTGRES_PASSWORD', 'postgres')
+            password = os.getenv('POSTGRES_PASSWORD', 'change_me_local_password')
             self.database_url = f"postgresql://{user}:{password}@{host}:{port}/{db}"
         
         self.engine = create_engine(self.database_url)
